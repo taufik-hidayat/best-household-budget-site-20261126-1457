@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="RumahKu Budget — a household budget site for an Indonesian family: income, spending, budget planner, savings goals, bills and reports for November 2026.">
+<title>RumahKu Budget · Household Budget for November 2026</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">Rp</span>
+      <span class="brand-text"><strong>RumahKu Budget</strong><small>The Santoso Family · Nov 2026</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#/">Dashboard</a>
+      <a href="#/transactions">Income &amp; Expenses</a>
+      <a href="#/planner">Budget Planner</a>
+      <a href="#/goals">Savings Goals</a>
+      <a href="#/bills">Bills</a>
+      <a href="#/reports">Reports</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>RumahKu Budget</strong> — an example household budget site. Figures describe a
+    realistic example family for November 2026 and are stored only in your browser (localStorage);
+    nothing is sent anywhere.</p>
+    <p>Income Rp 8.500.000 · spending Rp 6.002.000 · remaining Rp 2.498.000. Last updated 26 November 2026.
+    <button class="linklike" id="reset-data" type="button">Reset to the example data</button></p>
+  </div>
+</footer>
+</body>
+</html>
